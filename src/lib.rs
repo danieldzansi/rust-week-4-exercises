@@ -49,7 +49,7 @@ impl LegacyTransaction {
     }
 }
 
-// Transaction builder
+// Transaction builders
 pub struct LegacyTransactionBuilder {
     pub version: i32,
     pub inputs: Vec<TxInput>,
